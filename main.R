@@ -137,14 +137,6 @@ pheatmap(sampleDistMatrix,
          clustering_distance_cols=sampleDists,
          col=colors)
 
-#############
-#?plot
-#plot(clinical$paper_Tobacco.smoking.history)     #Unable to plot chart
-#test1 <- na.omit(clinical$paper_Tobacco.smoking.history)
-#is.na(test1)
-#plot(test1)
-#############
-
 #Running analysis
 dds <- DESeq(dds)
 
@@ -257,10 +249,3 @@ ggplot(dds_res_all) + geom_point(aes(x = log2FoldChange, y = -log10(padj),
 
 View(sign_norm_counts)
 top_20 <- data.frame(sign_norm_counts)[1:20, ] %>% rownames_to_column(var="ensgene")
-?gather
-library(tidyr)
-#top_20 <- gather(top_20, key="definition", value="normalized_counts", 2:8)
-#View(top_20)
-#View(clinical)
-#top_20 <- inner_join(top_20, rownames_to_column(clinical, var="definition"), by="definition")
-#ggplot(top_20) + geom_point(aes(x=ensgene, y=normalized_counts, color=definition)) + scale_y_log10() + xlab("Genes") + ylab("Normalized Counts") + ggtitle("Top 20 Significant DEgenes") + theme_bw() + theme(axis.text.x = element_text(angle=45, hjust = 1)) + theme(plot.title = element_text(hjust=0.5))
