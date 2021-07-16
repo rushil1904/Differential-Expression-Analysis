@@ -3,6 +3,14 @@
 
 **Code: [main.R](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/main.R)**
 
+**Result Files:**
+
+**-[Result](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/definition_Primary_solid_Tumor_vs_Solid_Tissue_Normal.csv)**
+
+**-[Result with Significant Genes](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/significant.csv)**
+
+**-[Result with Independent Hypothesis Weighting](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/IHWdefinition_Primary_solid_Tumor_vs_Solid_Tissue_Normal.csv)**
+
 **Hierarchial clustering Heatmap**
 ![Hierarchial clustering Heatmap](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20clustering%20Heamap_edited.png?raw=true)
 
