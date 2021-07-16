@@ -17,7 +17,6 @@ BiocManager::install('grimbough/biomaRt')
 BiocManager::install("airway", force = T)
 BiocManager::install("biobroom", force = T)
 
-
 install.packages("devtools")
 # Using devtools to install the package annotables
 devtools::install_github("stephenturner/annotables")
@@ -39,9 +38,6 @@ query_TCGA <-  GDCquery(
 )
 
 GDCdownload(query = query_TCGA)
-
-getwd()
-setwd("~/Desktop/Intern/")
 
 datab <- GDCprepare(query = query_TCGA, save = T, save.filename = "data.rda")
 
@@ -249,3 +245,4 @@ ggplot(dds_res_all) + geom_point(aes(x = log2FoldChange, y = -log10(padj),
 
 View(sign_norm_counts)
 top_20 <- data.frame(sign_norm_counts)[1:20, ] %>% rownames_to_column(var="ensgene")
+View(top_20)
