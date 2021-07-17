@@ -11,6 +11,12 @@
 
 **-[Result with Independent Hypothesis Weighting](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/IHWdefinition_Primary_solid_Tumor_vs_Solid_Tissue_Normal.csv)**
 
+**Pairs plot**
+![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Pairs%20plot.png?raw=true)
+
+**Heatmap visualization of some samples to get preliminary idea about the data**
+![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20visualization-some%20samples.png?raw=true)
+
 **Hierarchial clustering Heatmap**
 ![Hierarchial clustering Heatmap](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20clustering%20Heamap_edited.png?raw=true)
 
@@ -18,12 +24,6 @@
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Principal%20Component%20Analysis(definition).png?raw=true)
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/PCA(Number%20of%20year%20smoked).png?raw=true)
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/PCA(Smoking%20history).png?raw=true)
-
-**Pairs plot**
-![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Pairs%20plot.png?raw=true)
-
-**Heatmap visualization of some samples**
-![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20visualization-some%20samples.png?raw=true)
 
 **Dispersion estimate**
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Dispersion%20estimates.png?raw=true)
