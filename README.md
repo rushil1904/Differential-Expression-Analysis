@@ -1,5 +1,5 @@
 # Differential-Expression-Analysis
-### Differential gene expression analysis on RNA-seq data from TCGA
+### Differential gene expression analysis of RNA-seq data from TCGA
 
 **Code: [main.R](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/main.R)**
 
