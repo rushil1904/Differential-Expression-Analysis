@@ -36,7 +36,7 @@
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/LFC%20Shrinkage.png?raw=true)
 
 **Expression heatmap - Subset normalized counts for significant genes**
-![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20normalized%20counts%20significant%20genes_edited.png?raw=true)
+![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20normalized%20counts%20significant%20genes.png?raw=true)
 
 **Volcano plot**
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Volcano%20plot.png?raw=true)
