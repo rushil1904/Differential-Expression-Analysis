@@ -23,6 +23,8 @@
 ![](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20visualization-some%20samples.png?raw=true)
 
 **Hierarchial clustering Heatmap**
+
+Hierarchical clustering with heatmaps is used to assess the similarity in gene expression between the different samples in a dataset. This technique is used to explore how similar replicates are to each other and whether the samples belonging to different sample groups cluster separately. The heatmap is created by using the gene expression correlation values for all pairwise combinations of samples in the dataset, with the value 1 being perfect correlation. The hierarchical tree shows which samples are more similar to each other and the colors in the heatmap depict the correlation values
 ![Hierarchial clustering Heatmap](https://github.com/rushil1904/Differential-Expression-Analysis/blob/main/Heatmap%20clustering%20Heamap_edited.png?raw=true)
 
 
